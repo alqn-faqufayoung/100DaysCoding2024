@@ -7,5 +7,5 @@ public class Coding100Day {
         
         System.out.printf("Nama = %s%nUmur = %d Tahun%nTinggi badan = %dcm%nBerat badan = %dkg%n","Alan alvito F.", 22, 175, 65);
     }
-    
+
 }
