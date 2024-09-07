@@ -11,5 +11,5 @@ public class java {
     //makan astor, sambil bergaya
     //halo kak mentor, jangan bosen yaa..;)
     }
-    
+
 }
