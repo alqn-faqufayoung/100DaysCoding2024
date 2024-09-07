@@ -9,7 +9,7 @@ public class day5 {
         
        //kemeja kotak, warna oren...aseeekk
        //biar botak, penting keren, hehe;)
-       
+    
     }
     
 }
