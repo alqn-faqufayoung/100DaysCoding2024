@@ -6,4 +6,5 @@ public class Day3 {
         System.out.println("Kelas=A");
         System.out.println("Alamat=Dusun Tulunagung,Desa Sumberjo,Kec.Wonomulyo");
     }
+    
 }
