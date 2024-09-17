@@ -15,6 +15,7 @@ public class day16 {
     float besar = 9.99999999999999999999999999999999999999f;
     
     System.out.println("Angka paling kecil = "+ kecil);
-    System.out.println("Angka paling kecil = "+ besar);
+    System.out.println("Angka paling besar = "+ besar);
  }
 }
+
