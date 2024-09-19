@@ -1,6 +1,6 @@
 package coding100days;
 
-public class day18 {
+public class day17 {
 
     public static void main(String[] args) {
            
