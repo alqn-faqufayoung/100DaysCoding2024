@@ -8,6 +8,6 @@ public class day21 {
         
         short primitif = 12345;
         Short non_primitif = primitif;
-        System.out.println("angka kesukaan = " + primitif);
+        System.out.println("angka kesukaan = " + non_primitif);
  }
 }
