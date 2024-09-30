@@ -10,7 +10,7 @@ package coding100days;
         BigInteger A = new BigInteger("-999999999999999999999999999999");
         BigInteger B = new BigInteger("999999999999999999999999999999");
         
-        System.out.println("Nilai Big Integer 1 = " + A);
-        System.out.println("Nilai Big Integer 1 = " + B);
+        System.out.println("Kedalaman palung mariana = " + A);
+        System.out.println("Besar cintaku kepadamu = " + B);
  }
 }
