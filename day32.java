@@ -4,7 +4,7 @@ public class day32 {
  
     public static void main(String[] args) {
     //Konversi Data Primitif ke String 
-        
+     //cara umum untuk mengonversi tipe data primitif menjadi String:
  byte byte1 = 123;
   short short2 = 12345;
    int int3 = 1234567;
