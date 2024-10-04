@@ -21,11 +21,13 @@ public class day33 {
         // Contoh Casting implicit:
         byte manggaKecil = 123;
         int manggaBesar = manggaKecil;
+        System.out.println("Nilai sebelum di casting = "+ manggaKecil);
         System.out.println("Casting implicit (dari byte ke int) = "+ manggaBesar);
         
         // Contoh Casting explicit:
         double apelKecil = 78.9;
         byte apelBesar = (byte)apelKecil;
+        System.out.println("Nilai sebelum di casting = "+ apelKecil);
         System.out.println("Casting explicit (dari double ke byte) = "+ apelBesar);
 
  }
