@@ -14,7 +14,7 @@ public class day51 {
         int umur = in.nextInt();
 
          
-        int kategoriUmur = umur / 10;  // Pembagian rentang berdasarkan 10 tahun
+        int kategoriUmur = umur / 10; 
 
          
         switch (kategoriUmur) {
