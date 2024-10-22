@@ -6,7 +6,10 @@ public class day51 {
  
     public static void main(String[] args) {
         // Percabangan : Switch Case
-        /* penggolongan umur, 1-10 anak kecil, 11-20 remaja, 21-30 dewasa, 31-40 matang, 41-50 sepuh, dan 51 keatas lansia */
+        /* digunakan di Java untuk menggantikan percabangan if-else if yang memeriksa nilai dari satu variabel.
+        Dengan switch, kita dapat memeriksa nilai variabel tersebut dan menjalankan kode yang sesuai dengan salah satu nilai yang ditentukan.
+        Switch case lebih efisien dan rapi ketika kita perlu memeriksa banyak nilai berbeda pada satu variabel.
+        - penggolongan umur, 1-10 anak kecil, 11-20 remaja, 21-30 dewasa, 31-40 matang, 41-50 sepuh, dan 51 keatas lansia */
      Scanner in = new Scanner(System.in);
  
          
