@@ -6,18 +6,7 @@ public class day51 {
  
     public static void main(String[] args) {
         // Percabangan : Switch Case
-        /* ddigunakan di Java untuk menggantikan percabangan if-else if yang memeriksa nilai dari satu variabel.
-        Dengan switch, kita dapat memeriksa nilai variabel tersebut dan menjalankan kode yang sesuai dengan salah satu nilai yang ditentukan.
-        Switch case lebih efisien dan rapi ketika kita perlu memeriksa banyak nilai berbeda pada satu variabel.
-Contoh soal :
-- pada saat ujian semester matkul DDP, bagi siswa yg bisa mendapatkan nilai 1-39 mendapatkan kategori E, 40-59 mendapatkan kategori D, 60-75 mendapatkan kategori C,76-85 mendapatkan kategori B, dan 86-100 mendapatkan kategori A,
-> buatlah inputan nilai uts mahasiswa, dan kategorikan nilai tersebutmenggunakan switch case,
-  jika mendapatkan nilai 01-39 mendapatkan kategori E,
-                         40-59 mendapatkan kategori D,
-                         60-75 mendapatkan kategori C,
-                         76-85 mendapatkan kategori B,
-                         86-100 mendapatkan kategori A,
-                         dan jika nilai inputan diluar target di atas, maka beritahu jika nilai yg bisa di input 1-100. */
+        /* penggolongan umur, 1-10 anak kecil, 11-20 remaja, 21-30 dewasa, 31-40 matang, 41-50 sepuh, dan 51 keatas lansia */
      Scanner in = new Scanner(System.in);
  
          
