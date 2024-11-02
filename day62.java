@@ -30,9 +30,8 @@ public class day62 {
             System.out.print(y);
             y++;
         } while (y <= 5);
-        {
             System.out.println(" do-while berhenti karna break/batasan tertentu dari kondisi while");
-        }
+        
         System.out.println("========================================================================");
         int takdir = 2;
         switch (takdir) {
