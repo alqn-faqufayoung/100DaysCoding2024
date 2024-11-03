@@ -7,7 +7,7 @@ public class day63 {
     continue hanya mengabaikan eksekusi kode di bawahnya dalam loop untuk iterasi saat ini,
     tetapi tetap melanjutkan ke iterasi selanjutnya. 
 
-    Soal: Cetaklah angka dari 1 hingga 10, tetapi melewati angka 5 (menggunakan for loop, while, do-while) */
+    Soal: Cetaklah angka dari 1 hingga 5, tetapi melewati angka 3 (menggunakan for loop, while, do-while) */
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i++) {
             if (i == 3) {
