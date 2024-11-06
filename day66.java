@@ -28,6 +28,5 @@ public class day66 {
             }
             System.out.println();
         }
-
     }
 }
