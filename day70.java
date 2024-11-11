@@ -2,7 +2,7 @@ package coding100days;
 
 import java.util.Scanner;
 
-public class day69 {
+public class day70 {
     // Method Parameter
     /* nilai atau argumen yang dilewatkan ke dalam method saat dipanggil.
        Parameter memungkinkan kita untuk mengirim data atau informasi ke method,
