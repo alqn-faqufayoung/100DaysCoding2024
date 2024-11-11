@@ -3,7 +3,7 @@ package coding100days;
  
 import java.util.Scanner;
 
-public class day70 {
+public class day71 {
     // Method Static
     /* method yang dapat dipanggil tanpa perlu membuat objek dari kelasnya.
        Method ini milik kelas itu sendiri, bukan milik objek individual dari kelas tersebut.
