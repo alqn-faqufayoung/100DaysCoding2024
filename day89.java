@@ -19,14 +19,14 @@ Buatlah program menggunakan Java dengan ketentuan sebagai berikut:
         Scanner in = new Scanner(System.in);
 
         System.out.print("input jumlah elemen : ");
-        int jum = in.nextInt();
-        in.nextLine();
+        String jum = in.nextLine();
+        int x = Integer.parseInt(jum);
 
-        String[] ar = new String[jum];
+        String[] ar = new String[x];
 
         System.out.println("====================================================");
 
-        for (int i = 0; i < jum; i++) {
+        for (int i = 0; i < x; i++) {
             System.out.print("masukkan nama mahasiswa ke-" + (i + 1) + ": ");
             ar[i] = in.nextLine();
         }
@@ -34,7 +34,7 @@ Buatlah program menggunakan Java dengan ketentuan sebagai berikut:
         System.out.println("====================================================");
         System.out.println("mahasiswa yang sudah di input: ");
 
-        for (int i = 0; i < jum; i++) {
+        for (int i = 0; i < x; i++) {
             System.out.println("nama mahasiswa ke-" + (i + 1) + ": " + ar[i]);
         }
         System.out.println("====================================================");
@@ -49,7 +49,7 @@ Buatlah program menggunakan Java dengan ketentuan sebagai berikut:
         if (rev >= 0 && rev <= ar.length) {
             ar[rev - 1] = gan;
             System.out.println("====================================================");
-            for (int i = 0; i < jum; i++) {
+            for (int i = 0; i < x; i++) {
                 System.out.println("nama mahasiswa ke-" + (i + 1) + ": " + ar[i]);
             }
         }
