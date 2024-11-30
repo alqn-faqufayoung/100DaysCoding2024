@@ -52,19 +52,19 @@ Tampilkan harga awal hp, jumlah diskon, dan harga setelah diskon
             if (td.charAt(0) == 'n' || td.charAt(0) == 'N') {
                 System.out.println("Total Harga barang : ");
                 if (pil==1){
-                    System.out.println(p+"dengan harga: "+a
+                    System.out.println(p+" dengan harga: "+a
                     +"\njumlah diskon 0%"+"\nTotal: "+a);
                 }else if (pil==2){
-                    System.out.println(q+"dengan harga: "+b
+                    System.out.println(q+" dengan harga: "+b
                     +"\njumlah diskon 0%"+"\nTotal: "+b);
                 }else if (pil==3){
-                    System.out.println(r+"dengan harga: "+c
+                    System.out.println(r+" dengan harga: "+c
                     +"\njumlah diskon 0%"+"\nTotal: "+c);
                 }else if (pil==4){
-                    System.out.println(s+"dengan harga: "+d
+                    System.out.println(s+" dengan harga: "+d
                     +"\njumlah diskon 0%"+"\nTotal: "+d);
                 }else if (pil==5){
-                    System.out.println(t+"dengan harga: "+e
+                    System.out.println(t+" dengan harga: "+e
                     +"\njumlah diskon 0%"+"\nTotal: "+e);
                 }else{
             System.out.println("input tidak falid, program otomatis berhenti");
@@ -74,19 +74,19 @@ Tampilkan harga awal hp, jumlah diskon, dan harga setelah diskon
                 System.out.print("Masukkan kode Voucher anda: ");
                 String kode = in.nextLine();
                 if (kode.equals(kv)&&pil==1){
-                    System.out.println(p+"dengan harga awal: "+a
+                    System.out.println(p+" dengan harga awal: "+a
                     +"\njumlah diskon 5%: "+Da+"\nTotal: "+(a-Da));
                 }else if (kode.equals(kv)&&pil==2){
-                    System.out.println(q+"dengan harga awal: "+b
+                    System.out.println(q+" dengan harga awal: "+b
                     +"\njumlah diskon 5%: "+Db+"\nTotal: "+(b-Db));
                 }else if (kode.equals(kv)&&pil==3){
-                    System.out.println(r+"dengan harga awal: "+c
+                    System.out.println(r+" dengan harga awal: "+c
                     +"\njumlah diskon 5%: "+Dc+"\nTotal: "+(c-Dc));
                 }else if (kode.equals(kv)&&pil==4){
-                    System.out.println(s+"dengan harga awal: "+d
+                    System.out.println(s+" dengan harga awal: "+d
                     +"\njumlah diskon 5%: "+Dd+"\nTotal: "+(d-Dd));
                 }else if (kode.equals(kv)&&pil==5){
-                    System.out.println(t+"dengan harga awal: "+e
+                    System.out.println(t+" dengan harga awal: "+e
                     +"\njumlah diskon 5%: "+De+"\nTotal: "+(e-De));
                 }else{
             System.out.println("Kode voucher salah, program otomatis berhenti");
