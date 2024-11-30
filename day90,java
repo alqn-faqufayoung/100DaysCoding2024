@@ -1,0 +1,97 @@
+package coding100days;
+
+import java.util.Scanner;
+
+public class day90 {
+/* Buatlah sebuah program untuk menghitung total diskon dari sebuah pembelian hp dengan ketentuan sbg berikut:
+
+1. Merk hp minimal 3 
+2. Jika pembeli memiliki kode diskon akan mendapatkan diskon sebesar 5%
+3. Jika pembeli tidak memiliki kode diskon maka tidak akan  mendapatkan diskon
+Tampilkan harga awal hp, jumlah diskon, dan harga setelah diskon
+    */
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        int a = 1000000;
+         int b = 2000000;
+          int c = 3000000;
+           int d = 4000000;
+            int e = 5000000;
+        
+            String p = "1. Nokia Jadoel  ";
+           String q = "2. Sony ericson  ";
+          String r = "3. Motorola v3i  ";
+         String s = "4. Blackberry    ";
+        String t = "5. Samsung Galaxy";
+        
+        String kv = "12345678";
+        
+        int Da = a*5/100;
+         int Db = b*5/100;
+          int Dc = c*5/100;
+           int Dd = d*5/100;
+            int De = e*5/100;
+        
+        System.out.println("Daftar Merk HP dan Harganya: \n"
+                + p+": Rp. " + a + "\n"
+                + q+": Rp. " + b + "\n"
+                + r+": Rp. " + c + "\n"
+                + s+": Rp. " + d + "\n"
+                + t+": Rp. " + e);
+        System.out.println("====================================================");
+        System.out.print("Minat yang nomor berapa(1-5): ");
+        int pil = in.nextInt();
+        in.nextLine();
+        if (pil <= 0 || pil >= 6) {
+            System.out.println("input tidak falid, program otomatis berhenti");
+            return;
+        } else if (pil >= 0 || pil <= 5) {
+            System.out.print("Baik, Apakah anda mempunya Voucher Diskon (y/n): ");
+            String td = in.nextLine();
+            if (td.charAt(0) == 'n' || td.charAt(0) == 'N') {
+                System.out.println("Total Harga barang : ");
+                if (pil==1){
+                    System.out.println(p+"dengan harga: "+a
+                    +"\njumlah diskon 0%"+"\nTotal: "+a);
+                }else if (pil==2){
+                    System.out.println(q+"dengan harga: "+b
+                    +"\njumlah diskon 0%"+"\nTotal: "+b);
+                }else if (pil==3){
+                    System.out.println(r+"dengan harga: "+c
+                    +"\njumlah diskon 0%"+"\nTotal: "+c);
+                }else if (pil==4){
+                    System.out.println(s+"dengan harga: "+d
+                    +"\njumlah diskon 0%"+"\nTotal: "+d);
+                }else if (pil==5){
+                    System.out.println(t+"dengan harga: "+e
+                    +"\njumlah diskon 0%"+"\nTotal: "+e);
+                }else{
+            System.out.println("input tidak falid, program otomatis berhenti");
+                return;
+                }
+            } else if (td.charAt(0) == 'y' || td.charAt(0) == 'Y') {
+                System.out.print("Masukkan kode Voucher anda: ");
+                String kode = in.nextLine();
+                if (kode.equals(kv)&&pil==1){
+                    System.out.println(p+"dengan harga awal: "+a
+                    +"\njumlah diskon 5%: "+Da+"\nTotal: "+(a-Da));
+                }else if (kode.equals(kv)&&pil==2){
+                    System.out.println(q+"dengan harga awal: "+b
+                    +"\njumlah diskon 5%: "+Db+"\nTotal: "+(b-Db));
+                }else if (kode.equals(kv)&&pil==3){
+                    System.out.println(r+"dengan harga awal: "+c
+                    +"\njumlah diskon 5%: "+Dc+"\nTotal: "+(c-Dc));
+                }else if (kode.equals(kv)&&pil==4){
+                    System.out.println(s+"dengan harga awal: "+d
+                    +"\njumlah diskon 5%: "+Dd+"\nTotal: "+(d-Dd));
+                }else if (kode.equals(kv)&&pil==5){
+                    System.out.println(t+"dengan harga awal: "+e
+                    +"\njumlah diskon 5%: "+De+"\nTotal: "+(e-De));
+                }else{
+            System.out.println("Kode voucher salah, program otomatis berhenti");
+                }
+            }
+        }
+    }
+}
