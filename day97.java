@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class day97 {
 // Soal : Mencetak bilangan prima dari 1-n
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -12,7 +13,15 @@ public class day97 {
 
         System.out.print("bilangan prima 1 hingga " + x + ": ");
         for (int i = 2; i <= x; i++) {
-            if (i == 2 || i == 3 || (i % 2 != 0 && i % 3 != 0)) {
+            boolean pri = true;
+
+            for (int j = 2; j <= Math.sqrt(i); j++) {
+                if (i % j == 0) {
+                    pri = false;
+                    break;
+                }
+            }
+            if (pri) {
                 System.out.print(i + " ");
             }
         }
