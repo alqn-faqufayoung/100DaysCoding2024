@@ -11,17 +11,17 @@ public class day100 {
 
         LocalTime now = LocalTime.now();
         System.out.println("====================================================");
-        System.out.print("Hayy,.. Nama kamu siapa = ");
+        System.out.print("Hayy,.. Nama kamu siapa Mas = ");
         String x = in.nextLine();
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         if (now.isBefore(LocalTime.of(12, 0))) {
-            System.out.println("Selamat pagi " + x + " Program anda telah selesai ");
+            System.out.println("Selamat pagi Mas " + x + ", Program anda telah selesai ");
             System.out.println("====================================================");
         } else if (now.isBefore(LocalTime.of(17, 0))) {
-            System.out.println("Selamat siang " + x + " Program anda telah selesai ");
+            System.out.println("Selamat siang Mas " + x + ", Program anda telah selesai ");
             System.out.println("====================================================");
         } else {
-            System.out.println("Selamat malam " + x + " Program anda telah selesai ");
+            System.out.println("Selamat malam Mas " + x + ", Program anda telah selesai ");
             System.out.println("====================================================");
         }
     }
